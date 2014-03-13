@@ -1476,7 +1476,7 @@ require.register("dropzone/lib/dropzone.js", function(exports, require, module){
       progressObj.onprogress = updateProgress;
       headers = {
         "Accept": "application/json",
-        "Cache-Control": "no-cache",
+        //"Cache-Control": "no-cache",
         "X-Requested-With": "XMLHttpRequest"
       };
       if (this.options.headers) {
